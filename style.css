@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: space-between;
+}
+section{
+    background-color: rgb(39, 39, 39);
+    height: 100vh; 
+    width: 100%;
+}
+nav {
+    background-color: lightgray; 
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+nav ul li {
+    margin-bottom: 10px; /* Add spacing between links */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px; 
+    display: block; 
+    padding: 10px; 
+}
+nav {
+    background-color: grey;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+
+
+.nav-item {
+    margin: 10px 0; 
+    display: flex;
+    align-items: center; 
+}
+
+/* Style  navigation links */
+.nav-item a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px; 
+    padding: 10px; 
+    transition: background-color 0.3s ease; 
+}
+
+/* Hover effect */
+.nav-item a:hover {
+    background-color: white; 
+    color: #fff; 
+}  
+nav {
+    background-color: #your-color; /* Replace 'your-color' with your desired background color */
+}
+
+/* Style for the navigation links */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-bottom: 10px; /* Add spacing between links */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px; /* Adjust the font size as needed */
+    padding: 10px; /* Add padding to increase link size */
+    transition: background-color 0.3s ease; /* Add smooth transition for hover effect */
+}
+
+/* Hover effect */
+nav ul li a:hover {
+    background-color: #your-hover-color; /* Change to your desired hover background color */
+    color: #fff; /* Change text color on hover if needed */
+}
+
+/* Style boxes */
+category-boxes {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.category-box {
+    flex: 0 0 calc(33.33% - 10px); 
+    background-color: #f0f0f0; 
+    padding: 20px;
+    border: 1px solid #ccc; 
+    text-align: center;
+}
+
+/* Add more styles for category box content (e.g., h2 and p) */
+.category-box h2 {
+    font-size: 18px;
+    
+}
+
+.category-box p {
+    font-size: 18px;
+}
+
+/* Style for the big box */
+.big-box {
+    flex-wrap: 0 0 calc(66.66% - 10px); 
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc; 
+    text-align: center;
+}
+
+/* Add more styles for big box content (e.g., h2 and p) */
+.big-box h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.big-box p {
+    font-size: 16px;
+}
